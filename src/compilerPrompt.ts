@@ -1,4 +1,4 @@
-import { StackPreset } from "./stacks"
+import type { StackPreset } from "./stacks"
 
 export function makeUserPrompt(input: string, stack?: StackPreset) {
     return `
